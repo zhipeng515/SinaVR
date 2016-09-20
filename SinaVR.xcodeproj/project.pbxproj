@@ -7,14 +7,35 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		852F73761D90EFCD0065CA33 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 852F73751D90EFCD0065CA33 /* OpenGLES.framework */; };
+		852F737B1D90EFD80065CA33 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 852F737A1D90EFD80065CA33 /* CoreGraphics.framework */; };
+		852F73801D90F03E0065CA33 /* sphere.fsh in Resources */ = {isa = PBXBuildFile; fileRef = 852F737C1D90F03E0065CA33 /* sphere.fsh */; };
+		852F73811D90F03E0065CA33 /* sphere.vsh in Resources */ = {isa = PBXBuildFile; fileRef = 852F737D1D90F03E0065CA33 /* sphere.vsh */; };
+		852F73821D90F03E0065CA33 /* twospherestitch.fsh in Resources */ = {isa = PBXBuildFile; fileRef = 852F737E1D90F03E0065CA33 /* twospherestitch.fsh */; };
+		852F73831D90F03E0065CA33 /* twospherestitch.vsh in Resources */ = {isa = PBXBuildFile; fileRef = 852F737F1D90F03E0065CA33 /* twospherestitch.vsh */; };
 		853380CE1D8FEB380031EE97 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 853380CD1D8FEB380031EE97 /* main.m */; };
 		853380D11D8FEB380031EE97 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 853380D01D8FEB380031EE97 /* AppDelegate.m */; };
-		853380D41D8FEB380031EE97 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 853380D31D8FEB380031EE97 /* ViewController.m */; };
-		853380D71D8FEB380031EE97 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 853380D51D8FEB380031EE97 /* Main.storyboard */; };
 		853380D91D8FEB380031EE97 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 853380D81D8FEB380031EE97 /* Assets.xcassets */; };
 		853380DC1D8FEB380031EE97 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 853380DA1D8FEB380031EE97 /* LaunchScreen.storyboard */; };
 		853380E71D8FEB390031EE97 /* SinaVRTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 853380E61D8FEB390031EE97 /* SinaVRTests.m */; };
 		853380F21D8FEB390031EE97 /* SinaVRUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 853380F11D8FEB390031EE97 /* SinaVRUITests.m */; };
+		8533811D1D8FEF670031EE97 /* FirstViewLayout.json in Resources */ = {isa = PBXBuildFile; fileRef = 853381141D8FEF670031EE97 /* FirstViewLayout.json */; };
+		8533811E1D8FEF670031EE97 /* ModelDefine.json in Resources */ = {isa = PBXBuildFile; fileRef = 853381151D8FEF670031EE97 /* ModelDefine.json */; };
+		8533811F1D8FEF670031EE97 /* ObjectCreator.json in Resources */ = {isa = PBXBuildFile; fileRef = 853381161D8FEF670031EE97 /* ObjectCreator.json */; };
+		853381201D8FEF670031EE97 /* PersonaPage.json in Resources */ = {isa = PBXBuildFile; fileRef = 853381171D8FEF670031EE97 /* PersonaPage.json */; };
+		853381211D8FEF670031EE97 /* RegisterViewAction.json in Resources */ = {isa = PBXBuildFile; fileRef = 853381181D8FEF670031EE97 /* RegisterViewAction.json */; };
+		853381221D8FEF670031EE97 /* RegisterViewController.json in Resources */ = {isa = PBXBuildFile; fileRef = 853381191D8FEF670031EE97 /* RegisterViewController.json */; };
+		853381231D8FEF670031EE97 /* RegisterViewModel.json in Resources */ = {isa = PBXBuildFile; fileRef = 8533811A1D8FEF670031EE97 /* RegisterViewModel.json */; };
+		853381241D8FEF670031EE97 /* testdata.json in Resources */ = {isa = PBXBuildFile; fileRef = 8533811B1D8FEF670031EE97 /* testdata.json */; };
+		853381251D8FEF670031EE97 /* testdata_1.json in Resources */ = {isa = PBXBuildFile; fileRef = 8533811C1D8FEF670031EE97 /* testdata_1.json */; };
+		8533815A1D8FFB310031EE97 /* libDAUFramework.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 853381591D8FFB2E0031EE97 /* libDAUFramework.a */; };
+		856E76E71D90E567004E6D1F /* libbz2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 856E76E61D90E567004E6D1F /* libbz2.tbd */; };
+		856E76EC1D90E572004E6D1F /* libxml2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 856E76EB1D90E572004E6D1F /* libxml2.tbd */; };
+		856E76EE1D90E57E004E6D1F /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 856E76ED1D90E57E004E6D1F /* libc++.tbd */; };
+		856E76F61D90E82F004E6D1F /* libPanoPlayerStatic.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 856E76F51D90E82F004E6D1F /* libPanoPlayerStatic.a */; };
+		856E76FB1D90E84F004E6D1F /* IJKMediaFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 856E76FA1D90E84F004E6D1F /* IJKMediaFramework.framework */; };
+		856E76FD1D90E877004E6D1F /* opencv2 in Frameworks */ = {isa = PBXBuildFile; fileRef = 856E76FC1D90E877004E6D1F /* opencv2 */; };
+		D794B18D3156151535F97BB1 /* libPods-SinaVR.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FDC72AD9622113F172E9FB5A /* libPods-SinaVR.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,16 +53,56 @@
 			remoteGlobalIDString = 853380C81D8FEB380031EE97;
 			remoteInfo = SinaVR;
 		};
+		8533812C1D8FF9D40031EE97 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 853381261D8FF9D40031EE97 /* DAUFramework.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 85DD9E2D1CC9244100DF09FB;
+			remoteInfo = DAUFramework;
+		};
+		8533812E1D8FF9D40031EE97 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 853381261D8FF9D40031EE97 /* DAUFramework.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 85DD9E461CC9244200DF09FB;
+			remoteInfo = DAUFrameworkTests;
+		};
+		853381301D8FF9D40031EE97 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 853381261D8FF9D40031EE97 /* DAUFramework.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 85DD9E511CC9244200DF09FB;
+			remoteInfo = DAUFrameworkUITests;
+		};
+		853381521D8FFB2E0031EE97 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 853381261D8FF9D40031EE97 /* DAUFramework.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 853381351D8FFA0C0031EE97;
+			remoteInfo = libDAUFramework;
+		};
+		853381581D8FFB2E0031EE97 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 853381261D8FF9D40031EE97 /* DAUFramework.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 853381361D8FFA0C0031EE97;
+			remoteInfo = libDAUFramework;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		09DEB378E5C7E845302C65FC /* Pods-SinaVR.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SinaVR.release.xcconfig"; path = "Pods/Target Support Files/Pods-SinaVR/Pods-SinaVR.release.xcconfig"; sourceTree = "<group>"; };
+		43845D3E41A8C5003473EBAD /* Pods-SinaVR.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SinaVR.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SinaVR/Pods-SinaVR.debug.xcconfig"; sourceTree = "<group>"; };
+		852F73751D90EFCD0065CA33 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		852F737A1D90EFD80065CA33 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		852F737C1D90F03E0065CA33 /* sphere.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = sphere.fsh; sourceTree = "<group>"; };
+		852F737D1D90F03E0065CA33 /* sphere.vsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = sphere.vsh; sourceTree = "<group>"; };
+		852F737E1D90F03E0065CA33 /* twospherestitch.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = twospherestitch.fsh; sourceTree = "<group>"; };
+		852F737F1D90F03E0065CA33 /* twospherestitch.vsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = twospherestitch.vsh; sourceTree = "<group>"; };
 		853380C91D8FEB380031EE97 /* SinaVR.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SinaVR.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		853380CD1D8FEB380031EE97 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		853380CF1D8FEB380031EE97 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		853380D01D8FEB380031EE97 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		853380D21D8FEB380031EE97 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		853380D31D8FEB380031EE97 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		853380D61D8FEB380031EE97 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		853380D81D8FEB380031EE97 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		853380DB1D8FEB380031EE97 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		853380DD1D8FEB380031EE97 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -51,6 +112,23 @@
 		853380ED1D8FEB390031EE97 /* SinaVRUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SinaVRUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		853380F11D8FEB390031EE97 /* SinaVRUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SinaVRUITests.m; sourceTree = "<group>"; };
 		853380F31D8FEB390031EE97 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		853381141D8FEF670031EE97 /* FirstViewLayout.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = FirstViewLayout.json; sourceTree = "<group>"; };
+		853381151D8FEF670031EE97 /* ModelDefine.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = ModelDefine.json; sourceTree = "<group>"; };
+		853381161D8FEF670031EE97 /* ObjectCreator.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = ObjectCreator.json; sourceTree = "<group>"; };
+		853381171D8FEF670031EE97 /* PersonaPage.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = PersonaPage.json; sourceTree = "<group>"; };
+		853381181D8FEF670031EE97 /* RegisterViewAction.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = RegisterViewAction.json; sourceTree = "<group>"; };
+		853381191D8FEF670031EE97 /* RegisterViewController.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = RegisterViewController.json; sourceTree = "<group>"; };
+		8533811A1D8FEF670031EE97 /* RegisterViewModel.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = RegisterViewModel.json; sourceTree = "<group>"; };
+		8533811B1D8FEF670031EE97 /* testdata.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = testdata.json; sourceTree = "<group>"; };
+		8533811C1D8FEF670031EE97 /* testdata_1.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = testdata_1.json; sourceTree = "<group>"; };
+		853381261D8FF9D40031EE97 /* DAUFramework.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = DAUFramework.xcodeproj; path = ../DAUFramework/DAUFramework.xcodeproj; sourceTree = "<group>"; };
+		856E76E61D90E567004E6D1F /* libbz2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libbz2.tbd; path = usr/lib/libbz2.tbd; sourceTree = SDKROOT; };
+		856E76EB1D90E572004E6D1F /* libxml2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libxml2.tbd; path = usr/lib/libxml2.tbd; sourceTree = SDKROOT; };
+		856E76ED1D90E57E004E6D1F /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		856E76F51D90E82F004E6D1F /* libPanoPlayerStatic.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libPanoPlayerStatic.a; path = 3rdparty/detuv1.0.3/libPanoPlayerStatic.a; sourceTree = "<group>"; };
+		856E76FA1D90E84F004E6D1F /* IJKMediaFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IJKMediaFramework.framework; path = 3rdparty/detuv1.0.3/IJKMediaFramework.framework; sourceTree = "<group>"; };
+		856E76FC1D90E877004E6D1F /* opencv2 */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = opencv2; path = 3rdparty/detuv1.0.3/thirdPart/opencv2; sourceTree = "<group>"; };
+		FDC72AD9622113F172E9FB5A /* libPods-SinaVR.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SinaVR.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +136,16 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				852F737B1D90EFD80065CA33 /* CoreGraphics.framework in Frameworks */,
+				852F73761D90EFCD0065CA33 /* OpenGLES.framework in Frameworks */,
+				856E76FD1D90E877004E6D1F /* opencv2 in Frameworks */,
+				856E76FB1D90E84F004E6D1F /* IJKMediaFramework.framework in Frameworks */,
+				856E76F61D90E82F004E6D1F /* libPanoPlayerStatic.a in Frameworks */,
+				856E76EE1D90E57E004E6D1F /* libc++.tbd in Frameworks */,
+				856E76EC1D90E572004E6D1F /* libxml2.tbd in Frameworks */,
+				856E76E71D90E567004E6D1F /* libbz2.tbd in Frameworks */,
+				8533815A1D8FFB310031EE97 /* libDAUFramework.a in Frameworks */,
+				D794B18D3156151535F97BB1 /* libPods-SinaVR.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,13 +166,41 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3FBCEA677772FDA60FEA1F86 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				852F737A1D90EFD80065CA33 /* CoreGraphics.framework */,
+				852F73751D90EFCD0065CA33 /* OpenGLES.framework */,
+				856E76FC1D90E877004E6D1F /* opencv2 */,
+				856E76FA1D90E84F004E6D1F /* IJKMediaFramework.framework */,
+				856E76F51D90E82F004E6D1F /* libPanoPlayerStatic.a */,
+				856E76ED1D90E57E004E6D1F /* libc++.tbd */,
+				856E76EB1D90E572004E6D1F /* libxml2.tbd */,
+				856E76E61D90E567004E6D1F /* libbz2.tbd */,
+				FDC72AD9622113F172E9FB5A /* libPods-SinaVR.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4152BF912C472CF0F9C2231E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				43845D3E41A8C5003473EBAD /* Pods-SinaVR.debug.xcconfig */,
+				09DEB378E5C7E845302C65FC /* Pods-SinaVR.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		853380C01D8FEB380031EE97 = {
 			isa = PBXGroup;
 			children = (
+				853381261D8FF9D40031EE97 /* DAUFramework.xcodeproj */,
 				853380CB1D8FEB380031EE97 /* SinaVR */,
 				853380E51D8FEB390031EE97 /* SinaVRTests */,
 				853380F01D8FEB390031EE97 /* SinaVRUITests */,
 				853380CA1D8FEB380031EE97 /* Products */,
+				4152BF912C472CF0F9C2231E /* Pods */,
+				3FBCEA677772FDA60FEA1F86 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,11 +217,9 @@
 		853380CB1D8FEB380031EE97 /* SinaVR */ = {
 			isa = PBXGroup;
 			children = (
+				853381131D8FEF670031EE97 /* Data */,
 				853380CF1D8FEB380031EE97 /* AppDelegate.h */,
 				853380D01D8FEB380031EE97 /* AppDelegate.m */,
-				853380D21D8FEB380031EE97 /* ViewController.h */,
-				853380D31D8FEB380031EE97 /* ViewController.m */,
-				853380D51D8FEB380031EE97 /* Main.storyboard */,
 				853380D81D8FEB380031EE97 /* Assets.xcassets */,
 				853380DA1D8FEB380031EE97 /* LaunchScreen.storyboard */,
 				853380DD1D8FEB380031EE97 /* Info.plist */,
@@ -117,6 +231,10 @@
 		853380CC1D8FEB380031EE97 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				852F737C1D90F03E0065CA33 /* sphere.fsh */,
+				852F737D1D90F03E0065CA33 /* sphere.vsh */,
+				852F737E1D90F03E0065CA33 /* twospherestitch.fsh */,
+				852F737F1D90F03E0065CA33 /* twospherestitch.vsh */,
 				853380CD1D8FEB380031EE97 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -140,6 +258,33 @@
 			path = SinaVRUITests;
 			sourceTree = "<group>";
 		};
+		853381131D8FEF670031EE97 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				853381141D8FEF670031EE97 /* FirstViewLayout.json */,
+				853381151D8FEF670031EE97 /* ModelDefine.json */,
+				853381161D8FEF670031EE97 /* ObjectCreator.json */,
+				853381171D8FEF670031EE97 /* PersonaPage.json */,
+				853381181D8FEF670031EE97 /* RegisterViewAction.json */,
+				853381191D8FEF670031EE97 /* RegisterViewController.json */,
+				8533811A1D8FEF670031EE97 /* RegisterViewModel.json */,
+				8533811B1D8FEF670031EE97 /* testdata.json */,
+				8533811C1D8FEF670031EE97 /* testdata_1.json */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		853381271D8FF9D40031EE97 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8533812D1D8FF9D40031EE97 /* DAUFramework.app */,
+				8533812F1D8FF9D40031EE97 /* DAUFrameworkTests.xctest */,
+				853381311D8FF9D40031EE97 /* DAUFrameworkUITests.xctest */,
+				853381591D8FFB2E0031EE97 /* libDAUFramework.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,13 +292,17 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 853380F61D8FEB390031EE97 /* Build configuration list for PBXNativeTarget "SinaVR" */;
 			buildPhases = (
+				55228800AA21D65BC723F5BC /* [CP] Check Pods Manifest.lock */,
 				853380C51D8FEB380031EE97 /* Sources */,
 				853380C61D8FEB380031EE97 /* Frameworks */,
 				853380C71D8FEB380031EE97 /* Resources */,
+				1D75B14CFEFA88D5289C2DC0 /* [CP] Embed Pods Frameworks */,
+				74719E013267FF0E2B514F06 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				853381531D8FFB2E0031EE97 /* PBXTargetDependency */,
 			);
 			name = SinaVR;
 			productName = SinaVR;
@@ -235,6 +384,12 @@
 			mainGroup = 853380C01D8FEB380031EE97;
 			productRefGroup = 853380CA1D8FEB380031EE97 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 853381271D8FF9D40031EE97 /* Products */;
+					ProjectRef = 853381261D8FF9D40031EE97 /* DAUFramework.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				853380C81D8FEB380031EE97 /* SinaVR */,
@@ -244,14 +399,57 @@
 		};
 /* End PBXProject section */
 
+/* Begin PBXReferenceProxy section */
+		8533812D1D8FF9D40031EE97 /* DAUFramework.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = DAUFramework.app;
+			remoteRef = 8533812C1D8FF9D40031EE97 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		8533812F1D8FF9D40031EE97 /* DAUFrameworkTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = DAUFrameworkTests.xctest;
+			remoteRef = 8533812E1D8FF9D40031EE97 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		853381311D8FF9D40031EE97 /* DAUFrameworkUITests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = DAUFrameworkUITests.xctest;
+			remoteRef = 853381301D8FF9D40031EE97 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		853381591D8FFB2E0031EE97 /* libDAUFramework.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libDAUFramework.a;
+			remoteRef = 853381581D8FFB2E0031EE97 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
 /* Begin PBXResourcesBuildPhase section */
 		853380C71D8FEB380031EE97 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8533811F1D8FEF670031EE97 /* ObjectCreator.json in Resources */,
+				853381241D8FEF670031EE97 /* testdata.json in Resources */,
+				853381201D8FEF670031EE97 /* PersonaPage.json in Resources */,
+				8533811E1D8FEF670031EE97 /* ModelDefine.json in Resources */,
+				852F73821D90F03E0065CA33 /* twospherestitch.fsh in Resources */,
 				853380DC1D8FEB380031EE97 /* LaunchScreen.storyboard in Resources */,
 				853380D91D8FEB380031EE97 /* Assets.xcassets in Resources */,
-				853380D71D8FEB380031EE97 /* Main.storyboard in Resources */,
+				8533811D1D8FEF670031EE97 /* FirstViewLayout.json in Resources */,
+				853381211D8FEF670031EE97 /* RegisterViewAction.json in Resources */,
+				852F73831D90F03E0065CA33 /* twospherestitch.vsh in Resources */,
+				852F73801D90F03E0065CA33 /* sphere.fsh in Resources */,
+				853381221D8FEF670031EE97 /* RegisterViewController.json in Resources */,
+				853381231D8FEF670031EE97 /* RegisterViewModel.json in Resources */,
+				852F73811D90F03E0065CA33 /* sphere.vsh in Resources */,
+				853381251D8FEF670031EE97 /* testdata_1.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -271,12 +469,59 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1D75B14CFEFA88D5289C2DC0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SinaVR/Pods-SinaVR-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		55228800AA21D65BC723F5BC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		74719E013267FF0E2B514F06 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SinaVR/Pods-SinaVR-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		853380C51D8FEB380031EE97 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				853380D41D8FEB380031EE97 /* ViewController.m in Sources */,
 				853380D11D8FEB380031EE97 /* AppDelegate.m in Sources */,
 				853380CE1D8FEB380031EE97 /* main.m in Sources */,
 			);
@@ -311,17 +556,14 @@
 			target = 853380C81D8FEB380031EE97 /* SinaVR */;
 			targetProxy = 853380EE1D8FEB390031EE97 /* PBXContainerItemProxy */;
 		};
+		853381531D8FFB2E0031EE97 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = libDAUFramework;
+			targetProxy = 853381521D8FFB2E0031EE97 /* PBXContainerItemProxy */;
+		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		853380D51D8FEB380031EE97 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				853380D61D8FEB380031EE97 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		853380DA1D8FEB380031EE97 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -351,6 +593,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -359,6 +602,11 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					3rdparty/detuv1.0.3,
+					3rdparty/detuv1.0.3/thirdPart,
+				);
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -373,9 +621,21 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"../DAUFramework/DAUFramework/**",
+					3rdparty/detuv1.0.3/IJKMediaFramework.framework/Headers,
+					3rdparty/detuv1.0.3/include,
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					3rdparty/detuv1.0.3/thirdPart,
+					3rdparty/detuv1.0.3,
+				);
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = "-all_load";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -399,6 +659,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -407,6 +668,11 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					3rdparty/detuv1.0.3,
+					3rdparty/detuv1.0.3/thirdPart,
+				);
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -415,8 +681,20 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"../DAUFramework/DAUFramework/**",
+					3rdparty/detuv1.0.3/IJKMediaFramework.framework/Headers,
+					3rdparty/detuv1.0.3/include,
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					3rdparty/detuv1.0.3/thirdPart,
+					3rdparty/detuv1.0.3,
+				);
 				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "-all_load";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
@@ -425,11 +703,32 @@
 		};
 		853380F71D8FEB390031EE97 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 43845D3E41A8C5003473EBAD /* Pods-SinaVR.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = DZQ9HC6K8E;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					3rdparty/detuv1.0.3,
+					3rdparty/detuv1.0.3/thirdPart,
+					"$(PROJECT_DIR)/3rdparty/detuv1.0.3",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"../DAUFramework/DAUFramework/**",
+					3rdparty/detuv1.0.3/IJKMediaFramework.framework/Headers,
+					3rdparty/detuv1.0.3/include,
+				);
 				INFOPLIST_FILE = SinaVR/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					3rdparty/detuv1.0.3/thirdPart,
+					3rdparty/detuv1.0.3,
+					"$(PROJECT_DIR)/3rdparty/detuv1.0.3",
+					"$(PROJECT_DIR)/3rdparty/detuv1.0.3/thirdPart",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.testswift.SinaVR;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -437,11 +736,32 @@
 		};
 		853380F81D8FEB390031EE97 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 09DEB378E5C7E845302C65FC /* Pods-SinaVR.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = DZQ9HC6K8E;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					3rdparty/detuv1.0.3,
+					3rdparty/detuv1.0.3/thirdPart,
+					"$(PROJECT_DIR)/3rdparty/detuv1.0.3",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"../DAUFramework/DAUFramework/**",
+					3rdparty/detuv1.0.3/IJKMediaFramework.framework/Headers,
+					3rdparty/detuv1.0.3/include,
+				);
 				INFOPLIST_FILE = SinaVR/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					3rdparty/detuv1.0.3/thirdPart,
+					3rdparty/detuv1.0.3,
+					"$(PROJECT_DIR)/3rdparty/detuv1.0.3",
+					"$(PROJECT_DIR)/3rdparty/detuv1.0.3/thirdPart",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.testswift.SinaVR;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -516,6 +836,7 @@
 				853380F81D8FEB390031EE97 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		853380F91D8FEB390031EE97 /* Build configuration list for PBXNativeTarget "SinaVRTests" */ = {
 			isa = XCConfigurationList;
@@ -524,6 +845,7 @@
 				853380FB1D8FEB390031EE97 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		853380FC1D8FEB390031EE97 /* Build configuration list for PBXNativeTarget "SinaVRUITests" */ = {
 			isa = XCConfigurationList;
@@ -532,6 +854,7 @@
 				853380FE1D8FEB390031EE97 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

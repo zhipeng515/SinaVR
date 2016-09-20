@@ -1,0 +1,57 @@
+{
+	"creators" : 
+	[
+		{
+			"className" : "UIViewCreator",
+			"creatorName" : "createView"
+		},
+		{
+			"className" : "UILabelCreator",
+			"creatorName" : "createLabel"
+		},
+        {
+            "className" : "UITextViewCreator",
+            "creatorName" : "createTextView"
+        },
+		{
+			"className" : "UIButtonCreator",
+			"creatorName" : "createButton"
+		},
+        {
+            "className" : "UITextFieldCreator",
+            "creatorName" : "createTextField"
+        },
+		{
+			"className" : "UIImageViewCreator",
+			"creatorName" : "createImageView"
+		},
+		{
+			"className" : "UIViewControllerCreator",
+			"creatorName" : "createViewController"
+		},
+        {
+            "className" : "DAUViewControllerCreator",
+            "creatorName" : "createDAUViewController"
+        },
+		{
+			"className" : "UINavigationControllerCreator",
+			"creatorName" : "createNavigationController"
+		},
+        {
+            "className" : "DAUNavigationControllerCreator",
+            "creatorName" : "createDAUNavigationController"
+        },
+        {
+            "className" : "DAUTabbarControllerCreator",
+            "creatorName" : "createDAUTabbarController"
+        },
+		{
+			"className" : "DataCreator",
+			"creatorName" : "createData"
+		},
+		{
+			"className" : "ActionCreator",
+			"creatorName" : "createAction"
+		}
+     ]
+}

@@ -8,15 +8,82 @@
 
 #import "AppDelegate.h"
 
+#import "DAUViewController.h"
+#import "DAUNavigationController.h"
+#import "DAUTabbarController.h"
+#import "DAUManager.h"
+#import "ObjectManager.h"
+#import "Action.h"
+#import "UIWrapper.h"
+#include "Data.h"
+
+#import "PanoPlayer.h"
+
 @interface AppDelegate ()
+
+- (void)initGlobalInfo;
 
 @end
 
 @implementation AppDelegate
 
+- (void)initGlobalInfo
+{
+    NSDictionary * jsonDict = [DAUManager getDictionaryFromJsonFile:@"ObjectCreator"];
+    [[ObjectManager shareInstance] loadObjectCreator:jsonDict];
+    
+    jsonDict = [DAUManager getDictionaryFromJsonFile:@"ModelDefine"];
+    [[DAUManager shareInstance] loadModelDefine:jsonDict];
+}
+
+- (void)viewDidLoad:(nullable Data*)param
+{
+}
+
+- (void)viewWillAppear:(nullable Data*)param
+{
+    DAUViewController * viewController = param[@"self"];
+    Data * member = [[Data alloc] initWithScope:viewController.uiWrapper.scope];
+
+    PanoPlayerUrl *panoPlayerUrl = [[PanoPlayerUrl alloc] init];
+    //示例图片
+    NSString *app_config_pic = @"http://www.detu.com/ajax/pano/xml/61505";
+    [panoPlayerUrl SetXMlUrl:app_config_pic];
+
+    PanoPlayer *panoPlayer = [[PanoPlayer alloc] init];
+    member[@"panoPlayer"] = panoPlayer;
+    [viewController.view addSubview:panoPlayer];
+    panoPlayer.frame = CGRectMake(0, 0, 320, 200);
+    panoPlayer.gyroEnable = true;
+
+    [panoPlayer Play:panoPlayerUrl];
+}
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    [self initGlobalInfo];
+    
+    UIWrapper * controller1 = [DAUViewController createDAUViewController:@"RegisterViewController"];
+    [controller1.ui setTitle:@"注册1"];
+    [controller1 addAction:self withSelector:@"viewDidLoad:" withTrigger:@"viewDidLoad"];
+    [controller1 addAction:self withSelector:@"viewWillAppear:" withTrigger:@"viewWillAppear"];
+
+    UIWrapper * controller2 = [DAUViewController createDAUViewController:@"RegisterViewController"];
+    [controller2.ui setTitle:@"注册2"];
+    UIWrapper * controller3 = [DAUViewController createDAUViewController:@"RegisterViewController"];
+    [controller3.ui setTitle:@"注册3"];
+    
+    UIWrapper * naviController1 = [DAUNavigationController createDAUNavigationController:@"RootNavigationController" withRootViewController:controller1];
+    UIWrapper * naviController2 = [DAUNavigationController createDAUNavigationController:@"RootNavigationController" withRootViewController:controller2];
+    UIWrapper * naviController3 = [DAUNavigationController createDAUNavigationController:@"RootNavigationController" withRootViewController:controller3];
+    
+    UIWrapper * tabbarController = [DAUTabbarController createDAUTabbarController:@"RootTabbarController" withViewControllers:@[naviController1, naviController2, naviController3]];
+    
+    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    [self.window setRootViewController:tabbarController.ui];
+    [self.window makeKeyAndVisible];
+    
     return YES;
 }
 

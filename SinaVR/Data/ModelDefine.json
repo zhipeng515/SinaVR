@@ -1,0 +1,149 @@
+{
+    "device":
+    {
+        "scope":"global",
+        "propertys":
+        {
+            "deviceId":"string",
+            "deviceType":"string"
+        }
+    },
+    "repsond":
+    {
+        "propertys":
+        {
+            "success": "string",
+            "code": "string",
+            "message": "string"
+        }
+    },
+    "user":
+    {
+        "scope":"user",
+        "varname":"$userId",
+        "propertys":
+        {
+            "userId": "string",
+            "birthday": "string",
+            "constellation": "string",
+            "sex": "string",
+            "introduction": "string",
+            "phone": "string",
+            "email": "string",
+            "address": "string",
+            "city": "string",
+            "province": "string",
+            "country": "string",
+            "skilledGameId": "string",
+            "bucket": "string",
+            "banner": "string"
+        }
+    },
+    "note":
+    {
+        "scope":"note",
+        "varname":"$noteId",
+        "propertys":
+        {
+            "noteId": "string",
+            "content": "string",
+            "bucket": "string",
+            "attachmentUrl": "string",
+            "attachmentWidth": "string",
+            "attachmentHeight": "string",
+            "likeCount": "string",
+            "hateCount": "string",
+            "commentCount": "string",
+            "userId": "string",
+            "gameId": "string",
+            "time": "string",
+            "collectionCount": "string",
+            "originNoteId": "string",
+            "state": "string",
+            "visible": "string"
+            
+        }
+    },
+    "noteGeo":
+    {
+        "scope":"noteGeo",
+        "varname":"$noteId",
+        "propertys":
+        {
+            "noteId": "string",
+            "longitude": "string",
+            "latitude": "string",
+            "poiType": "string",
+            "poiName": "string"
+        }
+    },
+    "search_note":
+    {
+        "scope":"note",
+        "varname":"$id",
+        "propertys":
+        {
+            "id": "string",
+            "userId": "string",
+            "gameId": "string",
+            "time": "string",
+            "content": "string",
+            "bucket": "string",
+            "attachmentUrl": "string",
+            "originNoteId": "string",
+            "visible": "string",
+            "likeCount": "string",
+            "hateCount": "string",
+            "commentCount": "string"
+        }
+    },
+    "game":
+    {
+        "scope":"game",
+        "varname":"$gameId",
+        "propertys":
+        {
+            "gameId": "string",
+            "name": "string",
+            "content": "string",
+            "sub1": "string",
+            "sub2": "string",
+            "follows": "string",
+            "makers": "string",
+            "address": "string",
+            "banner": "string",
+            "phone": "string"
+        }
+    },
+    "notes":
+    {
+        "propertys":
+        {
+            "notes":"array"
+        }
+    },
+    "userExts":
+    {
+        "propertys":
+        {
+            "userExts":"array"
+        }
+    },
+    "userExt": {
+        "scope":"userExt",
+        "varname":"$userId",
+        "propertys":
+        {
+            "userId": "string",
+            "nickName": "string",
+            "bucket": "string",
+            "headPhoto": "string",
+            "credit": "string",
+            "money": "string",
+            "mood": "string",
+            "followCount": "string",
+            "funsCount": "string",
+            "noteCount": "string"
+        }
+    }
+}
