@@ -169,6 +169,7 @@
 		3FBCEA677772FDA60FEA1F86 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				853381261D8FF9D40031EE97 /* DAUFramework.xcodeproj */,
 				852F737A1D90EFD80065CA33 /* CoreGraphics.framework */,
 				852F73751D90EFCD0065CA33 /* OpenGLES.framework */,
 				856E76FC1D90E877004E6D1F /* opencv2 */,
@@ -194,7 +195,6 @@
 		853380C01D8FEB380031EE97 = {
 			isa = PBXGroup;
 			children = (
-				853381261D8FF9D40031EE97 /* DAUFramework.xcodeproj */,
 				853380CB1D8FEB380031EE97 /* SinaVR */,
 				853380E51D8FEB390031EE97 /* SinaVRTests */,
 				853380F01D8FEB390031EE97 /* SinaVRUITests */,
