@@ -29,6 +29,7 @@
 		853381241D8FEF670031EE97 /* testdata.json in Resources */ = {isa = PBXBuildFile; fileRef = 8533811B1D8FEF670031EE97 /* testdata.json */; };
 		853381251D8FEF670031EE97 /* testdata_1.json in Resources */ = {isa = PBXBuildFile; fileRef = 8533811C1D8FEF670031EE97 /* testdata_1.json */; };
 		8533815A1D8FFB310031EE97 /* libDAUFramework.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 853381591D8FFB2E0031EE97 /* libDAUFramework.a */; };
+		855FC2BD1D9112E00071BD4D /* TestViewController.json in Resources */ = {isa = PBXBuildFile; fileRef = 855FC2BC1D9112E00071BD4D /* TestViewController.json */; };
 		856E76E71D90E567004E6D1F /* libbz2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 856E76E61D90E567004E6D1F /* libbz2.tbd */; };
 		856E76EC1D90E572004E6D1F /* libxml2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 856E76EB1D90E572004E6D1F /* libxml2.tbd */; };
 		856E76EE1D90E57E004E6D1F /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 856E76ED1D90E57E004E6D1F /* libc++.tbd */; };
@@ -122,6 +123,7 @@
 		8533811B1D8FEF670031EE97 /* testdata.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = testdata.json; sourceTree = "<group>"; };
 		8533811C1D8FEF670031EE97 /* testdata_1.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = testdata_1.json; sourceTree = "<group>"; };
 		853381261D8FF9D40031EE97 /* DAUFramework.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = DAUFramework.xcodeproj; path = ../DAUFramework/DAUFramework.xcodeproj; sourceTree = "<group>"; };
+		855FC2BC1D9112E00071BD4D /* TestViewController.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = TestViewController.json; sourceTree = "<group>"; };
 		856E76E61D90E567004E6D1F /* libbz2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libbz2.tbd; path = usr/lib/libbz2.tbd; sourceTree = SDKROOT; };
 		856E76EB1D90E572004E6D1F /* libxml2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libxml2.tbd; path = usr/lib/libxml2.tbd; sourceTree = SDKROOT; };
 		856E76ED1D90E57E004E6D1F /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
@@ -261,6 +263,7 @@
 		853381131D8FEF670031EE97 /* Data */ = {
 			isa = PBXGroup;
 			children = (
+				855FC2BC1D9112E00071BD4D /* TestViewController.json */,
 				853381141D8FEF670031EE97 /* FirstViewLayout.json */,
 				853381151D8FEF670031EE97 /* ModelDefine.json */,
 				853381161D8FEF670031EE97 /* ObjectCreator.json */,
@@ -449,6 +452,7 @@
 				853381221D8FEF670031EE97 /* RegisterViewController.json in Resources */,
 				853381231D8FEF670031EE97 /* RegisterViewModel.json in Resources */,
 				852F73811D90F03E0065CA33 /* sphere.vsh in Resources */,
+				855FC2BD1D9112E00071BD4D /* TestViewController.json in Resources */,
 				853381251D8FEF670031EE97 /* testdata_1.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -627,7 +631,7 @@
 					3rdparty/detuv1.0.3/IJKMediaFramework.framework/Headers,
 					3rdparty/detuv1.0.3/include,
 				);
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					3rdparty/detuv1.0.3/thirdPart,
@@ -687,7 +691,7 @@
 					3rdparty/detuv1.0.3/IJKMediaFramework.framework/Headers,
 					3rdparty/detuv1.0.3/include,
 				);
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					3rdparty/detuv1.0.3/thirdPart,

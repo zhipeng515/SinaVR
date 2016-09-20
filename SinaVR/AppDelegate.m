@@ -38,25 +38,36 @@
 
 - (void)viewDidLoad:(nullable Data*)param
 {
+    DAUViewController * viewController = param[@"self"];
+    Data * member = [[Data alloc] initWithScope:viewController.uiWrapper.scope];
+    
+    PanoPlayerUrl *panoPlayerUrl = [[PanoPlayerUrl alloc] init];
+    NSString *app_config_pic = @"http://www.detu.com/ajax/pano/xml/116913";
+    [panoPlayerUrl SetXMlUrl:app_config_pic];
+    
+    PanoPlayer *panoPlayer = [[PanoPlayer alloc] init];
+    member[@"panoPlayer"] = panoPlayer;
+    [viewController.view addSubview:panoPlayer];
+    panoPlayer.frame = CGRectMake(0, 80, 540, 200);
+    panoPlayer.gyroEnable = true;
+    
+    [panoPlayer Play:panoPlayerUrl];
+    
+    PanoPlayerUrl *panoPlayerUrl1 = [[PanoPlayerUrl alloc] init];
+    NSString *app_config_pic1 = @"http://www.detu.com/ajax/pano/xml/116912";
+    [panoPlayerUrl1 SetXMlUrl:app_config_pic1];
+    
+    PanoPlayer *panoPlayer1 = [[PanoPlayer alloc] init];
+    member[@"panoPlayer1"] = panoPlayer1;
+    [viewController.view addSubview:panoPlayer1];
+    panoPlayer1.frame = CGRectMake(0, 300, 540, 200);
+    panoPlayer1.gyroEnable = true;
+    
+    [panoPlayer1 Play:panoPlayerUrl1];
 }
 
 - (void)viewWillAppear:(nullable Data*)param
 {
-    DAUViewController * viewController = param[@"self"];
-    Data * member = [[Data alloc] initWithScope:viewController.uiWrapper.scope];
-
-    PanoPlayerUrl *panoPlayerUrl = [[PanoPlayerUrl alloc] init];
-    //示例图片
-    NSString *app_config_pic = @"http://www.detu.com/ajax/pano/xml/61505";
-    [panoPlayerUrl SetXMlUrl:app_config_pic];
-
-    PanoPlayer *panoPlayer = [[PanoPlayer alloc] init];
-    member[@"panoPlayer"] = panoPlayer;
-    [viewController.view addSubview:panoPlayer];
-    panoPlayer.frame = CGRectMake(0, 0, 320, 200);
-    panoPlayer.gyroEnable = true;
-
-    [panoPlayer Play:panoPlayerUrl];
 }
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
@@ -64,7 +75,7 @@
     
     [self initGlobalInfo];
     
-    UIWrapper * controller1 = [DAUViewController createDAUViewController:@"RegisterViewController"];
+    UIWrapper * controller1 = [DAUViewController createDAUViewController:@"PanoController"];
     [controller1.ui setTitle:@"注册1"];
     [controller1 addAction:self withSelector:@"viewDidLoad:" withTrigger:@"viewDidLoad"];
     [controller1 addAction:self withSelector:@"viewWillAppear:" withTrigger:@"viewWillAppear"];
